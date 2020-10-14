@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet"/>
+    <title>Tree</title>
+</head>
+<body>
+    <button onclick="clearAll()">Clear All</button>
+    <div class="content">
+        <div id="branchContainer"></div>
+
+        <div>
+            <button onclick="clearTable()">Clear Table</button>
+            <select id="selector">
+                <option value="0">BYN</option>
+                <option value="1">USD</option>
+                <option value="2">EUR</option>
+                <option value="3">RUB</option>
+            </select>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Tel</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
